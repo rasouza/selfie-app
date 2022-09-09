@@ -1,5 +1,6 @@
 {
   "common": {
+    "join": "Join",
     "appDetails": "App Details",
     "appName": "App name",
     "appVersion": "App version",

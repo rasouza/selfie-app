@@ -101,6 +101,9 @@ export default () => {
             }>
             <Image source={icons.addPhoto} radius={0} color={colors.icon} />
           </TouchableOpacity>
+          <TouchableOpacity style={{marginRight: sizes.sm}} onPress={() => {}}>
+            <Image source={icons.addGroup} radius={0} color={colors.icon} />
+          </TouchableOpacity>
         </Block>
       ),
     },

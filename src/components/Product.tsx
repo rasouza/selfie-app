@@ -5,7 +5,7 @@ import Block from './Block';
 import Image from './Image';
 import Text from './Text';
 import {IProduct} from '../constants/types';
-import {useTheme, useTranslation} from '../hooks/';
+import {useTheme, useTranslation} from '../hooks';
 
 const Product = ({image, title, type, linkLabel}: IProduct) => {
   const {t} = useTranslation();
@@ -45,7 +45,7 @@ const Product = ({image, title, type, linkLabel}: IProduct) => {
               semibold
               size={sizes.linkSize}
               marginRight={sizes.s}>
-              {linkLabel || t('common.readArticle')}
+              {linkLabel || t('common.join')}
             </Text>
             <Image source={assets.arrow} color={colors.link} />
           </Block>
