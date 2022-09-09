@@ -209,6 +209,7 @@ export interface ThemeWeights {
 export interface ThemeIcons {
   apple: ImageSourcePropType;
   addPhoto: ImageSourcePropType;
+  addGroup: ImageSourcePropType;
   google: ImageSourcePropType;
   facebook: ImageSourcePropType;
   arrow: ImageSourcePropType;
