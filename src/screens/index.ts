@@ -19,3 +19,4 @@ export {default as Shopping} from './Pro';
 export {default as Pro} from './Pro';
 
 export {default as Groups} from './Groups';
+export {default as Camera} from './Camera';
