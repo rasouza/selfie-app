@@ -9,6 +9,7 @@ import {
   Register,
   Pro,
   Groups,
+  Camera,
 } from '../screens';
 import {useScreenOptions, useTranslation} from '../hooks';
 
@@ -31,6 +32,8 @@ export default () => {
         component={Home}
         options={{title: t('navigation.home')}}
       />
+
+      <Stack.Screen name="Camera" component={Camera} />
 
       <Stack.Screen
         name="Components"
