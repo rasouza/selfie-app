@@ -6,3 +6,5 @@ export {
   TranslationProvider,
   useTranslation,
 } from './useTranslation';
+
+export {AuthContext, AuthProvider, default as useAuth} from './useAuth';
